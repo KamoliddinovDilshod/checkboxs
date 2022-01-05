@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/mine.main.css">
+  <!-- <link rel="stylesheet" href="./css/main.css"> -->
+  <title>Checkbox</title>
+</head>
+<body>
+  
+  
+  
+  <h1 class="checkbox__title">
+    Qaysi sport turiga qiziqasiz? 
+  </h1>
+
+  <div class="checkbox__box">
+    <form class="checkbox__form" action="https://echo.htmlacademy.ru" method="post" name="user checkbox">
+      
+      <label class="checkbox__label checkbox__label--tennis">
+        <input class="visually-hidden checkbox__input" type="checkbox" name="User select" value="stol tennisi">
+        <span class="checkbox__select checkbox__select--tennis"></span>
+        Stol tennisi
+      </label>
+      
+      <label class="checkbox__label checkbox__label--basketball">
+        <input class="visually-hidden checkbox__input" name="User select" value="Basketboll" type="checkbox"
+        >
+        <span class="checkbox__select checkbox__select--basketball"></span>
+        Basketbol
+      </label>
+      
+      <label class="checkbox__label checkbox__label--voleyball">
+        <input class="visually-hidden checkbox__input" type="checkbox" name="User select" value="voleyball" disabled>
+        <span class="checkbox__select checkbox__select--voleyball"></span>
+        Voleybol
+      </label>
+      
+      <label class="checkbox__label checkbox__label--hockey">
+        <input class="visually-hidden checkbox__input" type="checkbox" name="User select" value="hockey" checked disabled>
+        <span class="checkbox__select checkbox__select--xokkey"></span>
+        Hokkey
+      </label>
+      
+      <button type="submit">
+        SEND
+      </button>
+      
+    </form>
+  </div>
+  
+</body>
+</html>
